@@ -21,9 +21,6 @@ exports.create = function(parentTagName, slideTagName) {
       else if(typeof content === 'function') {
         instance.push(content.apply(null, slice.call(arguments, 1)));
       }
-      else if(content && typeof content.length === 'number') {
-        slice.call(content, 0).forEach(instance.push);
-      }
 
       return instance;
     },
