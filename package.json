@@ -1,0 +1,17 @@
+{
+  "description": " ",
+  "repository": "git",
+  "scripts": {
+    "postinstall": "npm run initialize",
+    "initialize": "jake generate project=main"
+  },
+  "dependencies": {
+    "compression": "^1.0.2",
+    "express": "^4.3.1",
+    "bespoke": "^0.4.0",
+    "bespoke-keys": "^0.1.0",
+    "bespoke-loop": "^0.1.1",
+    "bespoke-scale": "^0.2.0",
+    "normalize.css": "^3.0.1"
+  }
+}
